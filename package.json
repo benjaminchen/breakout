@@ -1,0 +1,16 @@
+{
+    "name": "breakout-game",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack && cp ./dist/breakout.min.js ./dist/example/"
+    },
+    "author": "Benjamin Chen",
+    "license": "ISC",
+    "dependencies": {
+        "babel-core": "^6.23.1",
+        "babel-loader": "^6.3.2"
+    }
+}
